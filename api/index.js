@@ -22,6 +22,9 @@ mongoose.connection.on("disconnected", () => {
 })
 
 //Middlewares
+
+app.use(express.json())
+
 app.use("/api/auth", authRoute)
 app.use("/api/user", usersRoute)
 app.use("/api/hotels", hotelsRoute)
