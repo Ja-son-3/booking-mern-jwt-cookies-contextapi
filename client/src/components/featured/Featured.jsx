@@ -1,6 +1,8 @@
 import "./featured.css"
 
 const Featured = () => {
+
+    
     return (
         <div className="featured">
             <div className="featuredItem">
